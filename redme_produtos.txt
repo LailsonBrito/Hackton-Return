@@ -1,0 +1,36 @@
+1° produdo (regressão logística): para o código funcionar é necessário que todos os dados estejam traduzidos em números, nos dados entregues foi criado um dicionário de cada variável não escalar:
+
+PF - 0
+PJ - 1
+
+A - 1
+B - 2
+C - 3
+D - 4
+E - 5
+F - 6
+G - 7
+H - 8
+
+NULL - 0
+Norte - 1
+Nordeste - 2
+Centro-Oeste - 3
+Sudeste - 4
+Sul - 5
+
+Ativa - 1
+Promessa - 2
+Em pagamento - 3
+Liquidada - 4
+
+Com todos os dados prontos, inserir no python o caminho da base de treino, da base que deseja a predição e o caminho com o nome do .csv que gerará para os dados de predição.
+
+
+2° produto (BI de acompanhamento): com o resultado da predição, o BI acompanhará a jornada de cada um dos clientes marcados (qual foi o resultado do contato feito), como também a evolução mensal da quantidade de pessoas que conseguimos o contato e a não geração de um ajuizamento da dívida.
+
+Parte superior (esquerda para a direita): Quantidade de possíveis ações, quantas dívidas e o valor somado dessas dívidas.
+
+Parte inferior: gráfico da evolução mensal de quantos clientes a gente conseguiu contato que realizaram ou não uma ação judicial (identificando a eficácia do tratamento desses clientes).
+
+Parte lateral: vemelho - total de pessoas que houve o contato e gerou uma ação judicial; verde - total de pessoas que houve um contato e não gerou uma ação judicial.
